@@ -9,6 +9,21 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -17,28 +32,27 @@
     <script src="js/scripts.js"></script>
   </head>
 
-  <body>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <main class="inner-cover">
+        <h2>Let's create a card congrate on Baby shower</h2>
+        <!-- <div class="board"> -->
 
-    <h1>Week 7, Part 1</h1>
+          <div class='images-stack'>
+            <img src="images/Baby-girl.png" alt="" id="my_image" class="baby">
+            <img src="images/bg-bird.jpg" alt="" id='my_bg' class='bg'>
+          </div>
 
-    <div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
+          <p class="message"></p>
 
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
+          <button id="edit_bg" class="btn btn-primary">Change Background</button>
+      		<button id="my_button" class="btn btn-primary">Click to change gender</button>
 
-		<button id="my_button" class="btn btn-primary">Button</button>
+          <!-- <div class="square alt"></div> -->
+        </div>
 
+      </main>
+    </div>
 	</body>
 
 </html>
