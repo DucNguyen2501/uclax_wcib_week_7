@@ -1,51 +1,39 @@
 body {
 	font-family: 'Pacifico', cursive;
 	color:#633d0a;
-	font-size: 30px;}
+	font-size: 30px;
+	background-image: url('../images/pattern.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: white;
+}
 
 h2 {
 	padding: 20px;
 }
 
-  // .board {
-  // 	background: pink;
-  // 	width: 500px;
-  // 	height: 600px;
-  //   margin-left: auto;
-	// 	margin-right: auto;
-  // }
+.images-stack {
+	// background: pink;
+	position: relative;
+}
 
-
-  // .square {
-  // 	width: 500px;
-  // 	height: 800px;
-  // 	float: none;
-
-  //   &.pink {
-  //   	background: pink;
-  //   }
-	//
-  //   &.blue {
-  //   	background: #57cef5;
-  //   }
-  // }
-
-	.images-stack {
-		background: pink;
-  	width: 500px;
-  	height: 600px;
-    margin-left: auto;
-		margin-right: auto;
-		position: relative;
+.baby {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	display: block;
+	width: 60%;
+	margin: 0 auto;
 	}
 
-  .baby {
-    width: 500px;
-    height: auto;
-		position: absolute;
-		left: 0;
-		}
+.bg{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
 
- .btn.btn-primary{
-	 font-family: sans-serif;
- }
+.btn.btn-primary{
+ font-family: sans-serif;
+}
